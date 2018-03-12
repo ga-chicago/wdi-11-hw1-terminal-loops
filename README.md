@@ -16,7 +16,7 @@ Topics: Terminal, boolean expressions, reading code, while loops, for loops<br>
 
 ## Setup
 
-1) Make a directory in today's folder called `homework`.
+1) Do your work in the folder that was created when you cloned this repo.
 
 2) Build our folder structure like we did in class.
 
@@ -29,7 +29,7 @@ Topics: Terminal, boolean expressions, reading code, while loops, for loops<br>
 // concatentation is . . .
 ```
 
-6) For coded responses, as you work on them comment out everything else but the problem you're working on so that when you load `index.html` in your browser, only that code runs.
+5) For coded responses, as you work on them comment out everything else but the problem you're working on so that when you load `index.html` in your browser, only that code runs.
 
 
 Good luck!<br>
