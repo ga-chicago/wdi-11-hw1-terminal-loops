@@ -54,7 +54,7 @@ Fundamentals, class, or that you find on your own.
 1. Open the **Terminal app**
 
 
-2. Create a new directory in today's folder called "`homework_part_2`" and enter it.
+2. Create a new directory in today's folder called "`galaxy_far_far_away`" and enter it.
 
 3. Create a directory called "**death_star**", and make the following files inside of it: "**darth_vader.txt**", "**princess_leia.txt**", "**storm_trooper.txt**"
 
