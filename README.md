@@ -369,9 +369,7 @@ This command will typically not ask you if you really want to delete. It will ju
 10. Celebrate.
 
 
-# YOU'RE DONE! GET SOME SLEEP!!! I'M SERIOUS!!!
-
-<br>
+## Hungry for More?
 
 Want an extra challenge? Try doing the following, as long as you don't mess up the homework assignment you just did:
 
@@ -386,4 +384,4 @@ Want an extra challenge? Try doing the following, as long as you don't mess up t
 
 # Homework submission
 
-Once you've got your homework all done and on github, do a pull request to get it submitted. NICE JOB
+Once you've got your homework all done and on github, then have a beer, or whatever.  Nice work!  We will go over how to submit homework assignments in the morning.
