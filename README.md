@@ -32,7 +32,174 @@ Topics: Terminal, boolean expressions, reading code, while loops, for loops<br>
 6) For coded responses, as you work on them comment out everything else but the problem you're working on so that when you load `index.html` in your browser, only that code runs.
 
 
-Good luck!
+Good luck!<br>
+
+# Section 0
+## Terminal Practice
+
+Write the answer to each command at the bottom your your homework file. Write them as comments.
+
+# Episode X: A New Terminal
+
+A long time ago in a unix environment far, far away, young Jedi padawans who
+knew only of desktop software were seduced by the dark side of the Force to
+enter… The Terminal.
+
+Follow the instructions below using all the console commands introduced in
+Fundamentals, class, or that you find on your own.
+
+
+## Part I: Set the Scene
+
+1. Open the **Terminal app**
+
+
+2. Create a new directory in today's folder called "`homework_part_2`" and enter it.
+
+3. Create a directory called "**death_star**", and make the following files inside of it: "**darth_vader.txt**", "**princess_leia.txt**", "**storm_trooper.txt**"
+
+4. In "`galaxy_far_far_away`", make a directory named "**tatooine**" and create the following files in it: "**luke.txt**", "**ben_kenobi.txt**"
+
+5. Inside of "**tatooine**" make a directory called "**millenium_falcon**", and in it create: "**han_solo.txt**", "**chewbaca.txt**"
+
+<br>
+
+## Part II: mv - rename
+
+* You can rename a file using the `mv` command.
+
+For example, rename `file1.txt` to `file2.txt`
+
+```
+mv file1.txt file2.txt
+```
+
+1. Rename "**ben_kenobi.txt**" to "**obi_wan.txt**".
+
+<br>
+
+## Part II: cp - copy
+
+* You can copy a file from one location to another using the `cp` command.
+
+For example, copy `file1.txt` to its parent directory:
+
+```
+cp file1.txt ..
+```
+
+For example, copy `file1.txt` to a sibling directory:
+
+```
+cp file1.txt ../some_directory
+```
+
+For example, copy `file1.txt` to a child directory:
+
+```
+cp file1.txt some_directory
+```
+
+2. Copy "**storm_trooper.txt**" from "**death_star**" to "**tatooine**".
+
+<br>
+
+## Part IV: mv - move
+
+* You can use the `mv` command to move files from one location to another.
+
+For example, move a file from its current location to the parent directory:
+
+```
+mv file1.txt ..
+```
+
+For example, move a file from its current location to a sibling directory:
+
+```
+mv file1.txt ../some_directory
+```
+
+For example, move a file from its current location to a child directory:
+
+```
+mv file1.txt some_directory
+```
+
+You can also move directories into other directories using the same syntax.
+
+
+
+3. Move "**luke.txt**" and "**obi_wan.txt**" to the "**millenium_falcon**".
+
+4. Move "**millenium_falcon**" out of "**tatooine**" and into "**galaxy_far_far_away**".
+
+5. Move "**millenium_falcon**" into "**death_star**".
+
+6. Move "**princess_leia.txt**" into the "**millenium_falcon**".
+
+<br>
+
+
+## Part V: rm - remove
+
+You can use `rm` to delete a file.
+
+For example, delete a file:
+
+```
+rm file1.txt
+```
+
+7. Delete "**obi_wan.txt**".
+
+<br>
+
+## Part VI: all together
+
+8. In "**galaxy_far_far_away**", make a directory called "**yavin_4**".
+
+9. Move the "**millenium_falcon**" out of the "**death_star**" and into "**yavin_4**".
+
+10. Make a directory in "**yavin_4**" called "**x_wing**".
+
+11. Move "**princess_leia.txt**" to "**yavin_4**" and "**luke.txt**" to "**x_wing**".
+
+
+1. Move the "**millenium_falcon**" and "**x_wing**" out of "**yavin_4**" and into "**galaxy_far_far_away**".
+
+2. In "**death_star**", create directories for "**tie_fighter_1**", "**tie_fighter_2**" and "**tie_fighter_3**".
+
+3. Move "**darth_vader.txt**" into "**tie_fighter_1**".
+
+4. Make a copy of "**storm_trooper.txt**" in both "**tie_fighter_2**" and "**tie_fighter_3**".
+
+5. Move all of the "**tie_fighters**" out of the "**death_star**" and into "**galaxy_far_far_away**".
+
+<br>
+
+## Part VII: rm -r - remove directories
+
+**Be careful with this command**
+
+Make sure you delete the right thing, or you could accidentally delete the contents of your computer (it has happened).
+
+This command will typically not ask you if you really want to delete. It will just delete . . .
+
+6. Remove "**tie_fighters**" 2 and 3.
+
+
+## Part VIII:
+
+7. Touch a file in "**x_wing**" called "**the_force.txt**".
+
+8. Destroy the "**death_star**" and anyone inside of it.
+
+9. Return "**x_wing**" and the "**millenium_falcon**" to "**yavin_4**".
+
+10. Celebrate.
+
+
 
 <br>
 <hr>
@@ -202,172 +369,6 @@ The value of i is: 10 of 10
 
 <br>
 <hr>
-
-# Section 5
-## Terminal Practice
-
-Write the answer to each command at the bottom your your homework file. Write them as comments.
-
-# Episode X: A New Terminal
-
-A long time ago in a unix environment far, far away, young Jedi padawans who
-knew only of desktop software were seduced by the dark side of the Force to
-enter… The Terminal.
-
-Follow the instructions below using all the console commands introduced in
-Fundamentals, class, or that you find on your own.
-
-
-## Part I: Set the Scene
-
-1. Open the **Terminal app**
-
-
-2. Create a new directory in today's folder called "`homework_part_2`" and enter it.
-
-3. Create a directory called "**death_star**", and make the following files inside of it: "**darth_vader.txt**", "**princess_leia.txt**", "**storm_trooper.txt**"
-
-4. In "`galaxy_far_far_away`", make a directory named "**tatooine**" and create the following files in it: "**luke.txt**", "**ben_kenobi.txt**"
-
-5. Inside of "**tatooine**" make a directory called "**millenium_falcon**", and in it create: "**han_solo.txt**", "**chewbaca.txt**"
-
-<br>
-
-## Part II: mv - rename
-
-* You can rename a file using the `mv` command.
-
-For example, rename `file1.txt` to `file2.txt`
-
-```
-mv file1.txt file2.txt
-```
-
-1. Rename "**ben_kenobi.txt**" to "**obi_wan.txt**".
-
-<br>
-
-## Part II: cp - copy
-
-* You can copy a file from one location to another using the `cp` command.
-
-For example, copy `file1.txt` to its parent directory:
-
-```
-cp file1.txt ..
-```
-
-For example, copy `file1.txt` to a sibling directory:
-
-```
-cp file1.txt ../some_directory
-```
-
-For example, copy `file1.txt` to a child directory:
-
-```
-cp file1.txt some_directory
-```
-
-2. Copy "**storm_trooper.txt**" from "**death_star**" to "**tatooine**".
-
-<br>
-
-## Part IV: mv - move
-
-* You can use the `mv` command to move files from one location to another.
-
-For example, move a file from its current location to the parent directory:
-
-```
-mv file1.txt ..
-```
-
-For example, move a file from its current location to a sibling directory:
-
-```
-mv file1.txt ../some_directory
-```
-
-For example, move a file from its current location to a child directory:
-
-```
-mv file1.txt some_directory
-```
-
-You can also move directories into other directories using the same syntax.
-
-
-
-3. Move "**luke.txt**" and "**obi_wan.txt**" to the "**millenium_falcon**".
-
-4. Move "**millenium_falcon**" out of "**tatooine**" and into "**galaxy_far_far_away**".
-
-5. Move "**millenium_falcon**" into "**death_star**".
-
-6. Move "**princess_leia.txt**" into the "**millenium_falcon**".
-
-<br>
-
-
-## Part V: rm - remove
-
-You can use `rm` to delete a file.
-
-For example, delete a file:
-
-```
-rm file1.txt
-```
-
-7. Delete "**obi_wan.txt**".
-
-<br>
-
-## Part VI: all together
-
-8. In "**galaxy_far_far_away**", make a directory called "**yavin_4**".
-
-9. Move the "**millenium_falcon**" out of the "**death_star**" and into "**yavin_4**".
-
-10. Make a directory in "**yavin_4**" called "**x_wing**".
-
-11. Move "**princess_leia.txt**" to "**yavin_4**" and "**luke.txt**" to "**x_wing**".
-
-
-1. Move the "**millenium_falcon**" and "**x_wing**" out of "**yavin_4**" and into "**galaxy_far_far_away**".
-
-2. In "**death_star**", create directories for "**tie_fighter_1**", "**tie_fighter_2**" and "**tie_fighter_3**".
-
-3. Move "**darth_vader.txt**" into "**tie_fighter_1**".
-
-4. Make a copy of "**storm_trooper.txt**" in both "**tie_fighter_2**" and "**tie_fighter_3**".
-
-5. Move all of the "**tie_fighters**" out of the "**death_star**" and into "**galaxy_far_far_away**".
-
-<br>
-
-## Part VII: rm -r - remove directories
-
-**Be careful with this command**
-
-Make sure you delete the right thing, or you could accidentally delete the contents of your computer (it has happened).
-
-This command will typically not ask you if you really want to delete. It will just delete . . .
-
-6. Remove "**tie_fighters**" 2 and 3.
-
-
-## Part VIII:
-
-7. Touch a file in "**x_wing**" called "**the_force.txt**".
-
-8. Destroy the "**death_star**" and anyone inside of it.
-
-9. Return "**x_wing**" and the "**millenium_falcon**" to "**yavin_4**".
-
-10. Celebrate.
-
 
 ## Hungry for More?
 
