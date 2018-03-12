@@ -1,4 +1,4 @@
-\![ga](http://mobbook.generalassemb.ly/ga_cog.png)
+![ga](http://mobbook.generalassemb.ly/ga_cog.png)
 
 # wdi-11-chi _curious-turtles_
 
